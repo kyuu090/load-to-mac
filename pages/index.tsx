@@ -1,5 +1,4 @@
-import { InferGetStaticPropsType, GetStaticProps } from 'next'
-
+// import { InferGetStaticPropsType, GetStaticProps } from 'next'
 
 // export const getStaticProps: GetStaticProps = async () => {
 //   return { props: { posts } }
