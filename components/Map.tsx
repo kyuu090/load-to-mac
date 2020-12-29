@@ -6,11 +6,12 @@ export default function Create() {
         lng: 139.7744733,
     };
 
-    const key: any = process.env.MAPS_API_KEY
+    const key: any = process.env.MAPS_API_KEY;
+    console.log("key:"+key);
     return (
-        <div style={{ height: '300px', width: '300px' }}>
+        <div style={{ height: '1000px', width: '1000px' }}>
             <GoogleMapReact
-                bootstrapURLKeys={ key }
+                bootstrapURLKeys={{ key }}
                 defaultCenter={defaultLatLng}
                 defaultZoom={16}
             />
