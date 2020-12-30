@@ -1,4 +1,5 @@
 import { InferGetStaticPropsType, GetStaticProps } from 'next'
+import MapContainer from '../components/MapContainer'
 
 
 // export const getStaticProps: GetStaticProps = async () => {
@@ -8,7 +9,8 @@ import { InferGetStaticPropsType, GetStaticProps } from 'next'
 const Index = () => {
   return (
     <>
-      <h1>hoge</h1>
+        <h1>hoge</h1>
+        <MapContainer/>
     </>
   )
 }
