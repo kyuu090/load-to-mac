@@ -1,15 +1,56 @@
 import * as React from 'react';
 import Map from './Map';
+import GoogleMapReact from 'google-map-react'
 
 interface Props {}
-interface State {}
+interface State {
+    lat: number,
+    lng: number
+}
 class MapContainer extends React.Component<Props, State> {
+    constructor(props: Props) {
+        super(props)
+        this.state = {
+            lat: -1,
+            lng: -1
+        }
+    }
+
+    componentDidMount() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                position => {
+                    console.log(position);
+                    this.setState({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    })
+                },
+                error => {
+                    switch(error.code) {
+                        case 1: // PERMISSION_DENIED
+                          alert("位置情報の利用が許可されていません");
+                          break;
+                        case 2: // POSITION_UNAVAILABLE
+                          alert("現在位置が取得できませんでした");
+                          break;
+                        case 3: // TIMEOUT
+                          alert("タイムアウトになりました");
+                          break;
+                        default:
+                          alert("その他のエラー(エラーコード:"+error.code+")");
+                          break;
+                      }
+                }
+            )
+        } else {
+            alert("この端末では位置情報が取得できません");
+        }
+        
+    }
+
     render() {
-        return (
-            <div>
-                <Map/>
-            </div>
-        );
+        return <Map lat={this.state.lat} lng={this.state.lng} />
     }
 };
 export default MapContainer;
