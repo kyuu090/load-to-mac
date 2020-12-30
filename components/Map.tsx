@@ -7,9 +7,8 @@ export default function Create() {
     };
 
     const key: any = process.env.MAPS_API_KEY;
-    console.log("key:"+key);
     return (
-        <div style={{ height: '1000px', width: '1000px' }}>
+        <div style={{ height: '500px', width: '100%' }}>
             <GoogleMapReact
                 bootstrapURLKeys={{ key }}
                 defaultCenter={defaultLatLng}

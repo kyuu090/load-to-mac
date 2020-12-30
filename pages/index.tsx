@@ -1,10 +1,10 @@
-import Create from "../components/Map";
+import MapContainer from "../components/MapContainer";
 
 const Index = () => {
   return (
     <>
       <h1>hoge</h1>
-      <Create/>
+      <MapContainer/>
     </>
   )
 }
