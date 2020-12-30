@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Map from './Map';
 import GoogleMapReact from 'google-map-react'
+import findMac from '../lib/findMac'
 
 interface Props {}
 interface State {
@@ -19,8 +20,10 @@ class MapContainer extends React.Component<Props, State> {
     componentDidMount() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
-                position => {
-                    console.log(position);
+                async position => {
+                    const ret = await fetch(`http://localhost:3000/api/findmac?lat=${position.coords.latitude}&lng=${position.coords.longitude}`, { mode: "cors"})
+                    // const macList: Array<Object> = ret.results;
+                    
                     this.setState({
                         lat: position.coords.latitude,
                         lng: position.coords.longitude

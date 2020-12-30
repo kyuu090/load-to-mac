@@ -1,0 +1,165 @@
+{
+  "html_attributions" : [],
+  "results" : [
+     {
+        "business_status" : "OPERATIONAL",
+        "geometry" : {
+           "location" : {
+              "lat" : 34.7207543,
+              "lng" : 137.7509108
+           },
+           "viewport" : {
+              "northeast" : {
+                 "lat" : 34.72201112989272,
+                 "lng" : 137.7523021298927
+              },
+              "southwest" : {
+                 "lat" : 34.71931147010727,
+                 "lng" : 137.7496024701073
+              }
+           }
+        },
+        "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name" : "マクドナルド 浜松茄子町店",
+        "opening_hours" : {
+           "open_now" : true
+        },
+        "photos" : [
+           {
+              "height" : 500,
+              "html_attributions" : [
+                 "\u003ca href=\"https://maps.google.com/maps/contrib/113668467466719916179\"\u003ethu 141211\u003c/a\u003e"
+              ],
+              "photo_reference" : "ATtYBwKyXLBHeUnzwOGEjn7tj5sbjtHKAI6V9ekjB5C8ebSv_T3PHqSk753pDm9fHMCIBoA0uI_Vc1YCrt1C94RY9ottvMqbOw9afpU1tjqpoTdnXm_40zHyQDp1dchLpgAGIAggU2Q-EDMzWO8rmNqERT3OZqx9yQbCcS9f3KqVO2mQCpqm",
+              "width" : 750
+           }
+        ],
+        "place_id" : "ChIJ3XQcLhHeGmARvEx8np2dtV8",
+        "plus_code" : {
+           "compound_code" : "PQC2+89 浜松市、静岡県",
+           "global_code" : "8Q6VPQC2+89"
+        },
+        "price_level" : 2,
+        "rating" : 3.3,
+        "reference" : "ChIJ3XQcLhHeGmARvEx8np2dtV8",
+        "scope" : "GOOGLE",
+        "types" : [
+           "cafe",
+           "restaurant",
+           "food",
+           "point_of_interest",
+           "store",
+           "establishment"
+        ],
+        "user_ratings_total" : 292,
+        "vicinity" : "浜松市中区茄子町３５３−１４"
+     },
+     {
+        "business_status" : "OPERATIONAL",
+        "geometry" : {
+           "location" : {
+              "lat" : 34.7401027,
+              "lng" : 137.7628317
+           },
+           "viewport" : {
+              "northeast" : {
+                 "lat" : 34.74118537989273,
+                 "lng" : 137.7642789798927
+              },
+              "southwest" : {
+                 "lat" : 34.73848572010728,
+                 "lng" : 137.7615793201073
+              }
+           }
+        },
+        "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name" : "マクドナルド イオンモール浜松市野店",
+        "opening_hours" : {
+           "open_now" : true
+        },
+        "photos" : [
+           {
+              "height" : 3000,
+              "html_attributions" : [
+                 "\u003ca href=\"https://maps.google.com/maps/contrib/117227769606338508404\"\u003e荒川誠\u003c/a\u003e"
+              ],
+              "photo_reference" : "ATtYBwKVrufpMtth0FBXbTdrTGVH4Cce5PRVJX9SkPj0SaVgc3_VvRJUoMmpwLR9_qtUVbunsmT82UNn18QmJ2dofpu9TGcgdfHEOhhOtry90CcLr_LSZqG-PCoKc8PlY__LQshsy52epguFs-yBismDKZLttY9Z1I60nrdnq5WqCMPPMINm",
+              "width" : 5333
+           }
+        ],
+        "place_id" : "ChIJ3aapASjeGmARb0EoxWc9sPM",
+        "plus_code" : {
+           "compound_code" : "PQR7+24 東区、静岡県浜松市",
+           "global_code" : "8Q6VPQR7+24"
+        },
+        "price_level" : 2,
+        "rating" : 3.6,
+        "reference" : "ChIJ3aapASjeGmARb0EoxWc9sPM",
+        "scope" : "GOOGLE",
+        "types" : [
+           "cafe",
+           "restaurant",
+           "food",
+           "point_of_interest",
+           "store",
+           "establishment"
+        ],
+        "user_ratings_total" : 171,
+        "vicinity" : "東区天王町１９８１−３"
+     },
+     {
+        "business_status" : "OPERATIONAL",
+        "geometry" : {
+           "location" : {
+              "lat" : 34.72956,
+              "lng" : 137.732435
+           },
+           "viewport" : {
+              "northeast" : {
+                 "lat" : 34.73087642989272,
+                 "lng" : 137.7336942298927
+              },
+              "southwest" : {
+                 "lat" : 34.72817677010728,
+                 "lng" : 137.7309945701072
+              }
+           }
+        },
+        "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name" : "マクドナルド 浜松高林店",
+        "opening_hours" : {
+           "open_now" : true
+        },
+        "photos" : [
+           {
+              "height" : 4032,
+              "html_attributions" : [
+                 "\u003ca href=\"https://maps.google.com/maps/contrib/113832901115254477259\"\u003e宏幸古木\u003c/a\u003e"
+              ],
+              "photo_reference" : "ATtYBwJ3BQhIlqnIZSv5q6HhoGJ2cgSpfGDUsRNIF1zmIM9jGQxUTKM7KMUCrsOYJgv3hIaunN6xM3oasPOja1TiqTwsKiE9RhJ12aclzdOxjSFDILaFDgAUc-L-wWyUuT8IdzRZMAq0T9ARTHVBei_fMmrxfDVoiueO6rkIHi1Y3Ph1Lm8u",
+              "width" : 3024
+           }
+        ],
+        "place_id" : "ChIJFZaksVHeGmARer96ul5Jtck",
+        "plus_code" : {
+           "compound_code" : "PPHJ+RX 浜松市、静岡県",
+           "global_code" : "8Q6VPPHJ+RX"
+        },
+        "price_level" : 2,
+        "rating" : 3.5,
+        "reference" : "ChIJFZaksVHeGmARer96ul5Jtck",
+        "scope" : "GOOGLE",
+        "types" : [
+           "cafe",
+           "restaurant",
+           "food",
+           "point_of_interest",
+           "store",
+           "establishment"
+        ],
+        "user_ratings_total" : 359,
+        "vicinity" : "浜松市中区高林４丁目１４−１"
+     }
+  ],
+  "status" : "OK"
+}
