@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    background-color: #ff312f;
+    color: white;
+    padding: 10px 10px;
+}
+
+.title {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}

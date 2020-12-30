@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/google-map-react": "^2.1.0",
     "date-fns": "^2.11.1",
+    "google-map-react": "^2.1.9",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
     "react": "16.13.1",
