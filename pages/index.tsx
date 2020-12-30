@@ -1,14 +1,10 @@
-import { InferGetStaticPropsType, GetStaticProps } from 'next'
-
-
-// export const getStaticProps: GetStaticProps = async () => {
-//   return { props: { posts } }
-// }
+import Create from "../components/Map";
 
 const Index = () => {
   return (
     <>
       <h1>hoge</h1>
+      <Create/>
     </>
   )
 }
